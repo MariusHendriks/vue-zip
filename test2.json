@@ -1,0 +1,82 @@
+{
+  "root1.txt": {
+    "name": "root1.txt",
+    "dir": false
+  },
+  "root2.txt": {
+    "name": "root2.txt",
+    "dir": false
+  },
+  "sub1/": {
+    "name": "sub1/",
+    "dir": true
+  },
+  "sub1/sub11/": {
+    "name": "sub1/sub11/",
+    "dir": true
+  },
+  "sub1/sub11/sub111.txt": {
+    "name": "sub1/sub11/sub111.txt",
+    "dir": false
+  },
+  "sub1/sub11/sub112.txt": {
+    "name": "sub1/sub11/sub112.txt",
+    "dir": false
+  },
+  "sub1/sub11.txt": {
+    "name": "sub1/sub11.txt",
+    "dir": false
+  },
+  "sub1/sub12/": {
+    "name": "sub1/sub12/",
+    "dir": true
+  },
+  "sub1/sub12/sub121.txt": {
+    "name": "sub1/sub12/sub121.txt",
+    "dir": false
+  },
+  "sub1/sub12/sub122.txt": {
+    "name": "sub1/sub12/sub122.txt",
+    "dir": false
+  },
+  "sub1/sub12.txt": {
+    "name": "sub1/sub12.txt",
+    "dir": false
+  },
+  "sub2/": {
+    "name": "sub2/",
+    "dir": true
+  },
+  "sub2/sub21/": {
+    "name": "sub2/sub21/",
+    "dir": true
+  },
+  "sub2/sub21/sub211.txt": {
+    "name": "sub2/sub21/sub211.txt",
+    "dir": false
+  },
+  "sub2/sub21/sub212.txt": {
+    "name": "sub2/sub21/sub212.txt",
+    "dir": false
+  },
+  "sub2/sub21.txt": {
+    "name": "sub2/sub21.txt",
+    "dir": false
+  },
+  "sub2/sub22/": {
+    "name": "sub2/sub22/",
+    "dir": true
+  },
+  "sub2/sub22/sub221.txt": {
+    "name": "sub2/sub22/sub221.txt",
+    "dir": false
+  },
+  "sub2/sub22/sub222.txt": {
+    "name": "sub2/sub22/sub222.txt",
+    "dir": false
+  },
+  "sub2/sub22.txt": {
+    "name": "sub2/sub22.txt",
+    "dir": false
+  }
+}

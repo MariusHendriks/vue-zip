@@ -1,0 +1,98 @@
+{
+  "name": "",
+  "dir": true,
+  "data": [
+    {
+      "name": "root1.txt",
+      "dir": false
+    },
+    {
+      "name": "root2.txt",
+      "dir": false
+    },
+    {
+      "name": "sub1/",
+      "dir": true,
+      "data": [
+        {
+          "name": "sub1/sub11/",
+          "dir": true,
+          "data": [
+            {
+              "name": "sub1/sub11/sub111.txt",
+              "dir": false
+            },
+            {
+              "name": "sub1/sub11/sub112.txt",
+              "dir": false
+            }
+          ]
+        },
+        {
+          "name": "sub1/sub12/",
+          "dir": true,
+          "data": [
+            {
+              "name": "sub1/sub12/sub121.txt",
+              "dir": false
+            },
+            {
+              "name": "sub1/sub12/sub122.txt",
+              "dir": false
+            }
+          ]
+        },
+        {
+          "name": "sub1/sub11.txt",
+          "dir": false
+        },
+        {
+          "name": "sub1/sub12.txt",
+          "dir": false
+        }
+      ]
+    },
+    {
+      "name": "sub2/",
+      "dir": true,
+      "data": [
+        {
+          "name": "sub2/sub21/",
+          "dir": true,
+          "data": [
+            {
+              "name": "sub2/sub21/sub211.txt",
+              "dir": false
+            },
+            {
+              "name": "sub2/sub21/sub212.txt",
+              "dir": false
+            }
+          ]
+        },
+        {
+          "name": "sub2/sub21.txt",
+          "dir": false
+        },
+        {
+          "name": "sub2/sub22.txt",
+          "dir": false
+        },
+        {
+          "name": "sub2/sub22/",
+          "dir": true,
+          "data": [
+            {
+              "name": "sub2/sub22/sub221.txt",
+              "dir": false
+            },
+            {
+              "name": "sub2/sub22/sub222.txt",
+              "dir": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
