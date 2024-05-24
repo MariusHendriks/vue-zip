@@ -1,15 +1,16 @@
 <template>
-  <div>
+  <div class="zip-extractor">
+    <h1>Zip extractor</h1>
     <input type="file" @change="handleFileSelect" />
-    <div v-if="fileList.length > 0">
+    <div v-if="fileList.length > 0" class="files">
       <h1>Files:</h1>
-      <ul>
-        <li v-for="file in fileList" :key="file.name">
-          {{ file.name }}
-          <button @click="downloadFile(file)">Download</button>
-        </li>
-      </ul>
-      <button @click="downloadAllFiles">Download All Files</button>
+
+      <div v-for="file in fileList" :key="file.name" class="file">
+        {{ file.name }}
+        <button @click="downloadFile(file)">Download</button>
+      </div>
+
+      <button class="download-all" @click="downloadAllFiles">Download All Files</button>
       <a ref="downloadLink" v-show="false" download></a>
     </div>
   </div>
@@ -72,3 +73,30 @@ const downloadAllFiles = () => {
   })
 }
 </script>
+
+<style scoped>
+.zip-extractor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.files {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.files .file {
+  display: flex;
+  justify-content: space-between;
+}
+
+.files .file button {
+  margin-left: 15px;
+}
+
+.download-all {
+  margin-top: 15px;
+}
+</style>
